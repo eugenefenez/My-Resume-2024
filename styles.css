@@ -35,13 +35,15 @@ h2 {
 
 
 h3 {
-  background-color: lightslategray;
+  
   font-family: 'Montserrat', sans-serif;
   color: #eeebdd;
   font-size: 1.5rem;
   margin-left: 15%;
   margin-right: 15%;
   text-align: center;
+  backdrop-filter: brightness(30%);
+  border-radius: 10px 100px / 120px;
   
 }
 /*hr {
@@ -86,16 +88,35 @@ a:hover {
 }
 
 
-/* Middle Container */
+/* Website Design Container */
+.wd-container {
+  background-color: burlywood;
+}
 
-.middle-container{
-  height: 900px;
+h4 {
   
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding: 50px 0px 15px 20px;
+}
+.wd-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.wd-card1 {
+  text-align: center;
+}
+.wd-card2 {
+  text-align: center;
+}
+.wd-card3 {
+  text-align: center;
 }
 
 .heads-up{
   color: #ce1212;
-  background-color: #000000;
+  background-image: url(istockphoto-1263227499-612x612.jpg);
+
 }
 
 /*CONTACT CONTAINER*/
@@ -158,3 +179,4 @@ a:hover {
   font-size: .75rem;
   padding: 20px 0;
 }
+
