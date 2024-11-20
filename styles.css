@@ -90,7 +90,7 @@ a:hover {
 
 /* Website Design Container */
 .wd-container {
-  background-color: burlywood;
+  background-color:#FFAE00;
 }
 
 h4 {
@@ -105,6 +105,8 @@ h4 {
 }
 .wd-card1 {
   text-align: center;
+  padding-left: 50px;
+
 }
 .wd-card2 {
   text-align: center;
@@ -113,11 +115,32 @@ h4 {
   text-align: center;
 }
 
+/*  Web Apps Development Container */
+
+.wa-container {
+  background-color:#cf2ecf;
+}
+.wa-frames {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+/* Games development Container */
+
+.game-container {
+  background-color: #000000;
+}
+
+.g-frame1 {
+  padding-left: 50px;
+}
 .heads-up{
   color: #ce1212;
   background-image: url(istockphoto-1263227499-612x612.jpg);
-
 }
+
+
 
 /*CONTACT CONTAINER*/
 
