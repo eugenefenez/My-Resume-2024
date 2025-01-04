@@ -62,12 +62,18 @@ a:hover {
 .top-container{
 
   background-image: url("20220721_150912.jpg");
-  height:900px;
+  height:1000px;
   
 }
+
 @media (max-width: 800px){
   .top-container{
     height: 1100px;
+  }
+}
+@media (max-width: 600px){
+  .top-container{
+    height: 950px;
   }
 }
 .profile-pic {
@@ -88,7 +94,8 @@ a:hover {
 }
 
 
-/* Website Design Container */
+/**** Website Design Container ****/
+
 .wd-container {
   background-color:#FFAE00;
 }
@@ -102,20 +109,38 @@ h4 {
 .wd-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  
+}
+
+@media (max-width:800px){
+
+  .wd-cards {
+    display: block;
+    padding-left: 25%;
+    padding-right: 25%;
+    
+   
+  }
 }
 .wd-card1 {
   text-align: center;
-  padding-left: 50px;
+  padding-top: 50px;
+  
+ 
 
 }
 .wd-card2 {
   text-align: center;
+  padding-top: 50px;
 }
 .wd-card3 {
   text-align: center;
+  padding-top: 50px;
 }
 
-/*  Web Apps Development Container */
+/***  Web Apps Development Container ***/
 
 .wa-container {
   background-color:#cf2ecf;
@@ -125,16 +150,27 @@ h4 {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-
-/* Games development Container */
-
-.game-container {
-  background-color: #000000;
-}
-
-.g-frame1 {
+.wa-frame1 {
   padding-left: 50px;
 }
+.wa-fig-cap {
+  text-align: center;
+}
+
+
+
+/*** Games development Container ***/
+
+.game-container{
+  background-color: #000000;
+  color: #EAF6F6;
+}
+.game-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 .heads-up{
   color: #ce1212;
   background-image: url(istockphoto-1263227499-612x612.jpg);
@@ -142,7 +178,7 @@ h4 {
 
 
 
-/*CONTACT CONTAINER*/
+/***CONTACT CONTAINER***/
 
 .btn {
   background: #3D94F6;
@@ -187,7 +223,7 @@ h4 {
 
 
 
-/* bottom container */
+/*** bottom container ***/
 
 .footer-link {
   color: #ce1212;
