@@ -2,8 +2,6 @@
 /***TOP CONTAINER***/
 .body {
   background-color: #778899;
-  
-  
 }
 h1 {
   background-color: #778899;
@@ -29,7 +27,6 @@ h2 {
   text-align: center; 
 }
 @media (max-width:800px){
-
   h2 {
     font-size: 1.5rem;
     margin-left: 50px;
@@ -39,7 +36,6 @@ h2 {
 
 
 h3 {
-  
   font-family: 'Montserrat', sans-serif;
   color: #eeebdd;
   font-size: 1.5rem;
@@ -48,7 +44,6 @@ h3 {
   text-align: center;
   backdrop-filter: brightness(30%);
   border-radius: 10px 100px / 120px;
-  
 }
 
 a:hover {
@@ -56,11 +51,9 @@ a:hover {
 }
 
 .top-container{
-
   background-image: url("background-image.jpg");
-  background-size: 1100px;
+  background-size: 100%;
   height:1000px;
-  
 }
 
 @media (max-width: 800px){
@@ -90,7 +83,6 @@ a:hover {
   }
 }
 
-
 /**** Website Design Container ****/
 
 .wd-container {
@@ -99,39 +91,37 @@ a:hover {
   margin: 20px 0;
   border-radius: 50% / 10%;
   color: black;
- 
+}
+
+@media (max-width:800px){
+  .wd-container {
+    text-align: center;
+  }
 }
 
 h4 {
-  
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   padding: 50px 0px 15px 20px;
 }
+
 .wd-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding-left: 50px;
   padding-bottom: 50px;
-  
 }
 
-@media (max-width:800px){
-
-  .wd-cards {
-    display: block;
-    padding-left: 25%;
-    padding-right: 25%;
-    
-   
-  }
-}
+ @media (max-width:800px){ 
+   .wd-cards { 
+    display: block; 
+     padding-left: 25%; 
+     padding-right: 25%; 
+   } 
+} 
 .wd-card1 {
   text-align: center;
   padding-top: 50px;
-  
- 
-
 }
 .wd-card2 {
   text-align: center;
@@ -145,21 +135,37 @@ h4 {
 /***  Web Apps Development Container ***/
 
 .wa-container {
-  background-color:#cf2ecf;
+  background-image: url(istockphoto-1263227499-612x612.jpg);
+  position: relative;
+  margin: 20px 0;
+  border-radius: 50% / 10%;
+  color: black;
+}
+@media (max-width:800px) {
+  .wa-container {
+    text-align: center;
+  }
+  
 }
 .wa-frames {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.wa-frame1 {
+@media (max-width:800px){ 
+  .wa-frames { 
+   display: block; 
+    padding-left: 25%; 
+    padding-right: 25%; 
+  } 
+} 
+
+/* .wa-frame1 {
   padding-left: 50px;
-}
+} */
 .wa-fig-cap {
   text-align: center;
 }
-
-
 
 /*** Games development Container ***/
 
