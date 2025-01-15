@@ -1,6 +1,6 @@
 
 /***TOP CONTAINER***/
-.body {
+body {
   background-color: #778899;
 }
 h1 {
@@ -135,11 +135,11 @@ h4 {
 /***  Web Apps Development Container ***/
 
 .wa-container {
-  background-color: purple;
+  background-color: #cc0099;
   position: relative;
   margin: 20px 0;
   border-radius: 50% / 10%;
-  color: black;
+  color: white;
   
 }
 @media (max-width:800px) {
@@ -163,9 +163,6 @@ h4 {
   } 
 } 
 
-/* .wa-frame1 {
-  padding-left: 50px;
-} */
 .wa-fig-cap {
   text-align: center;
 }
@@ -175,11 +172,12 @@ h4 {
 .game-container{
   background-color: #000000;
   color: #EAF6F6;
-  
 }
+
 .game-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px 0px 20px 50px;
 }
 
 @media (max-width:800px){
@@ -191,29 +189,16 @@ h4 {
   }
 }
 
-.game-card1 {
-  padding-bottom: 50px;
-}
-
-.game-card2 {
-  padding-bottom: 50px;
-}
-
-.game-card3 {
-  padding-bottom: 50px;
-}
-
 .heads-up{
   color: #ce1212;
   background-image: url(istockphoto-1263227499-612x612.jpg);
   height: 30px;
 }
 
-
-
 /***CONTACT CONTAINER***/
 
 .contact-container{
+  background-color: #778899;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
@@ -231,7 +216,7 @@ h4 {
   border-radius: 20px;
   color: #FFAE00;
   font-family: Arial;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 100;
   padding: 21px;
   -webkit-box-shadow: 1px 1px 20px 0 #000000;
